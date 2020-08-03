@@ -27,4 +27,4 @@ RUN npm install -g @luminati-io/luminati-proxy
 ENV DOCKER 1
 
 # Define default command.
-CMD ["luminati"]
+CMD ["luminati", "--www", "80"]
